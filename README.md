@@ -14,7 +14,7 @@ I am particularly fond of ones that let you onboard anyone, easily, without too 
 
 Let's tackle the design and infrastructure for the version of my game by breaking down these prerequisites.
 
-### Prerequisite #1: Using something to play 
+### Using something to play 
 
 What is something that everyone always carries that could play a game, connected with others? The answer to this is of course a smartphone.
 
@@ -25,7 +25,7 @@ For all the above, I know of a game called [Spaceteam](https://spaceteam.ca/) th
 Popping back up a level, all of this adds complexity to my project.
 I'll simplify this to just using an internet connection, which will work well for the purposes of demonstrating my game remotely.
 
-### Prerequisite #2: Having a copy of the game 
+### Having a copy of the game 
 
 How's the game software distributed to all the player's devices? 
 
@@ -40,7 +40,7 @@ There is also the popular [set-up of Jackbox Games](https://www.jackboxgames.com
 
 For the sake of simplicity the setup for my game should be similar but without a central console or shared view. Instead each player visits a website and creates a game for others to join, and without a shared view the action appears exclusively on each participant's screen.
 
-### Prerequisite #3: Learning how to play 
+### Learning how to play 
 
 This one is up to the design of the game and could be solved by having someone experienced teach the game. 
 

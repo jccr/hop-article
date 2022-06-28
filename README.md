@@ -80,10 +80,22 @@ They say in JavaScript [everything is an object](https://developer.mozilla.org/e
 Everything is an expression speaks to Elixir being expression-oriented which means most expressions evaluate down to a value. In statement-oriented C derived languages (JavaScript included) `if` is a statement that does not return a value, whereas in Elixir `if` is an expression (like a function) that returns a value. 
 
 ```elixir
-y = if is_number(1) do 
+x = if is_number(123) do 
       "yes"
     else
       "no"
     end
 ```
+
+### Bring on the Phoenix Framework
+
+In addition to being the leading web framework for Elixir, Phoenix markets itself as allowing you to "Build rich, interactive web applications quickly, with less code and fewer moving parts." This is great for my use case and theme of simplification, and given I have a single week to complete the project I'll need a highly productive framework such as this.
+
+At a first glance you might see it as another opinionated MVC web framework like Ruby on Rails, but it's hiding a secret weapon, something that sets it apart, an extension called LiveView. 
+
+With LiveView you can create real-time user experiences like in a Single Page App, but server-rendered without JavaScript or front-end complexity or associated tradeoffs in SEO, state management, routing and navigation.
+
+I think this quote frames it best:
+
+>“LiveView strips away layers of abstraction, because it solves both the client and server in a single abstraction. HTTP almost entirely falls away. No more REST. No more JSON. No GraphQL APIs, controllers, serializers, or resolvers. You just write HTML templates, and a stateful process synchronizes it with the browser, updating it only when needed. And there's no JavaScript to write.” – Chris McCord, [How We Got to LiveView](https://fly.io/blog/how-we-got-to-liveview/)
 
